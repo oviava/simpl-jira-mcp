@@ -4,7 +4,7 @@ A local stdio MCP server for one Jira user's personal access token. The runtime 
 
 ## Run the server
 
-Follow [How to set up the Jira MCP server](docs/setup.md) to build it and pass `JIRA_URL` and `JIRA_KEY` through your MCP host.
+Follow [How to set up the Jira MCP server](docs/setup.md) to build it and pass `JIRA_URL` and `JIRA_KEY` through your MCP host. For host-specific steps, see [Connect Jira MCP to Codex or GitHub Copilot](docs/how-to-use-with-codex-and-copilot.md).
 
 The read-only server registers 22 tools for issue research, Agile boards and sprints, change-preparation metadata, worklogs, favorite filters, dashboards, attachment metadata, and bounded issue-field and comment recovery. Attachment-byte retrieval has a bounded implementation but remains unadvertised until live content-route compatibility is verified. Write tools are not registered, and `JIRA_ENABLE_WRITES=true` is rejected until they pass acceptance on a designated test issue.
 
