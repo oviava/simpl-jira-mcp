@@ -1,0 +1,699 @@
+{
+  "observedFrom": "2026-10-02T11:09:57.434608+00:00",
+  "observedUntil": "2026-10-02T11:10:10.218789+00:00",
+  "baseUrl": "https://jira.simplprogramme.eu",
+  "jiraVersion": "10.3.25",
+  "deploymentType": "Server",
+  "requestCount": 50,
+  "requests": [
+    {
+      "name": "server-info",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/serverInfo",
+      "observedAt": "2026-10-02T11:09:57.434608+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "server-info.json"
+    },
+    {
+      "name": "myself",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/myself",
+      "observedAt": "2026-10-02T11:09:57.715751+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "myself.json"
+    },
+    {
+      "name": "permissions-global",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions",
+      "observedAt": "2026-10-02T11:09:57.956565+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-global.json"
+    },
+    {
+      "name": "projects",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/project",
+      "observedAt": "2026-10-02T11:09:58.211594+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "projects.json"
+    },
+    {
+      "name": "fields",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/field",
+      "observedAt": "2026-10-02T11:09:58.423682+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "fields.json"
+    },
+    {
+      "name": "issue-types",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issuetype",
+      "observedAt": "2026-10-02T11:09:58.719591+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "issue-types.json"
+    },
+    {
+      "name": "priorities",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/priority",
+      "observedAt": "2026-10-02T11:09:58.955499+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "priorities.json"
+    },
+    {
+      "name": "statuses",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/status",
+      "observedAt": "2026-10-02T11:09:59.162898+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "statuses.json"
+    },
+    {
+      "name": "issue-link-types",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issueLinkType",
+      "observedAt": "2026-10-02T11:09:59.473834+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "issue-link-types.json"
+    },
+    {
+      "name": "attachment-settings",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/attachment/meta",
+      "observedAt": "2026-10-02T11:09:59.751508+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "attachment-settings.json"
+    },
+    {
+      "name": "favourite-filters",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/filter/favourite",
+      "observedAt": "2026-10-02T11:10:00.000469+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "favourite-filters.json"
+    },
+    {
+      "name": "dashboards",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/dashboard?maxResults=5",
+      "observedAt": "2026-10-02T11:10:00.208025+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "dashboards.json"
+    },
+    {
+      "name": "application-properties",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/application-properties",
+      "observedAt": "2026-10-02T11:10:00.481184+00:00",
+      "status": 403,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "application-properties.json"
+    },
+    {
+      "name": "service-desks",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/servicedeskapi/servicedesk?limit=5",
+      "observedAt": "2026-10-02T11:10:00.739577+00:00",
+      "status": 302,
+      "contentType": "text/html;charset=UTF-8",
+      "error": "non_json_response"
+    },
+    {
+      "name": "boards",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/agile/1.0/board?maxResults=10",
+      "observedAt": "2026-10-02T11:10:00.994633+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "boards.json"
+    },
+    {
+      "name": "search",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/search?jql=ORDER+BY+updated+DESC&maxResults=3&fields=summary%2Cproject%2Cissuetype%2Cstatus%2Cupdated",
+      "observedAt": "2026-10-02T11:10:01.251316+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "search.json"
+    },
+    {
+      "name": "permissions-SIMPL",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?projectKey=SIMPL",
+      "observedAt": "2026-10-02T11:10:01.497280+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-SIMPL.json"
+    },
+    {
+      "name": "permissions-JCS",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?projectKey=JCS",
+      "observedAt": "2026-10-02T11:10:01.749563+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-JCS.json"
+    },
+    {
+      "name": "permissions-PSOT",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?projectKey=PSOT",
+      "observedAt": "2026-10-02T11:10:02.001138+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-PSOT.json"
+    },
+    {
+      "name": "permissions-SC1PLAN",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?projectKey=SC1PLAN",
+      "observedAt": "2026-10-02T11:10:02.295797+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-SC1PLAN.json"
+    },
+    {
+      "name": "permissions-SCE",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?projectKey=SCE",
+      "observedAt": "2026-10-02T11:10:02.548260+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-SCE.json"
+    },
+    {
+      "name": "permissions-SPGRLOG",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?projectKey=SPGRLOG",
+      "observedAt": "2026-10-02T11:10:02.853043+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "permissions-SPGRLOG.json"
+    },
+    {
+      "name": "project-detail",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/project/SIMPL",
+      "observedAt": "2026-10-02T11:10:03.167083+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "project-detail.json"
+    },
+    {
+      "name": "components",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/project/SIMPL/components",
+      "observedAt": "2026-10-02T11:10:03.443857+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "components.json"
+    },
+    {
+      "name": "versions",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/project/SIMPL/versions",
+      "observedAt": "2026-10-02T11:10:03.696975+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "versions.json"
+    },
+    {
+      "name": "project-statuses",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/project/SIMPL/statuses",
+      "observedAt": "2026-10-02T11:10:03.920364+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "project-statuses.json"
+    },
+    {
+      "name": "create-issue-types",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/createmeta/SIMPL/issuetypes?maxResults=50",
+      "observedAt": "2026-10-02T11:10:04.253437+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "create-issue-types.json"
+    },
+    {
+      "name": "create-fields",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/createmeta/SIMPL/issuetypes/10600?maxResults=100",
+      "observedAt": "2026-10-02T11:10:04.506318+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "create-fields.json"
+    },
+    {
+      "name": "assignable-users",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/user/assignable/search?project=SIMPL&maxResults=1",
+      "observedAt": "2026-10-02T11:10:04.770813+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "assignable-users.json"
+    },
+    {
+      "name": "project-search",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/search?jql=project+%3D+SIMPL+ORDER+BY+updated+DESC&maxResults=2&fields=summary%2Cproject%2Cissuetype%2Cstatus%2Cupdated",
+      "observedAt": "2026-10-02T11:10:04.996738+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "project-search.json"
+    },
+    {
+      "name": "SIMPL-33846-detail",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-33846?expand=names%2Cschema%2Cchangelog&fields=summary%2Cdescription%2Cproject%2Cissuetype%2Cstatus%2Cassignee%2Creporter%2Clabels%2Ccomponents%2CfixVersions%2Cattachment%2Cissuelinks%2Cparent%2Cupdated",
+      "observedAt": "2026-10-02T11:10:05.182957+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-detail.json"
+    },
+    {
+      "name": "SIMPL-33846-comments",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-33846/comment?maxResults=2",
+      "observedAt": "2026-10-02T11:10:05.524529+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-comments.json"
+    },
+    {
+      "name": "SIMPL-33846-remote-links",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-33846/remotelink",
+      "observedAt": "2026-10-02T11:10:05.777361+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-remote-links.json"
+    },
+    {
+      "name": "SIMPL-33846-transitions",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-33846/transitions?expand=transitions.fields",
+      "observedAt": "2026-10-02T11:10:05.990291+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-transitions.json"
+    },
+    {
+      "name": "SIMPL-33846-editmeta",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-33846/editmeta",
+      "observedAt": "2026-10-02T11:10:06.243082+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-editmeta.json"
+    },
+    {
+      "name": "SIMPL-33846-worklogs",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-33846/worklog?maxResults=2",
+      "observedAt": "2026-10-02T11:10:06.501431+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-worklogs.json"
+    },
+    {
+      "name": "SIMPL-33846-permissions",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?issueKey=SIMPL-33846",
+      "observedAt": "2026-10-02T11:10:06.724973+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-33846-permissions.json"
+    },
+    {
+      "name": "SIMPL-22027-detail",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-22027?expand=names%2Cschema%2Cchangelog&fields=summary%2Cdescription%2Cproject%2Cissuetype%2Cstatus%2Cassignee%2Creporter%2Clabels%2Ccomponents%2CfixVersions%2Cattachment%2Cissuelinks%2Cparent%2Cupdated",
+      "observedAt": "2026-10-02T11:10:06.973050+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-detail.json"
+    },
+    {
+      "name": "SIMPL-22027-comments",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-22027/comment?maxResults=2",
+      "observedAt": "2026-10-02T11:10:07.417341+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-comments.json"
+    },
+    {
+      "name": "SIMPL-22027-remote-links",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-22027/remotelink",
+      "observedAt": "2026-10-02T11:10:07.647950+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-remote-links.json"
+    },
+    {
+      "name": "SIMPL-22027-transitions",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-22027/transitions?expand=transitions.fields",
+      "observedAt": "2026-10-02T11:10:07.852575+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-transitions.json"
+    },
+    {
+      "name": "SIMPL-22027-editmeta",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-22027/editmeta",
+      "observedAt": "2026-10-02T11:10:08.103478+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-editmeta.json"
+    },
+    {
+      "name": "SIMPL-22027-worklogs",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/issue/SIMPL-22027/worklog?maxResults=2",
+      "observedAt": "2026-10-02T11:10:08.374633+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-worklogs.json"
+    },
+    {
+      "name": "SIMPL-22027-permissions",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/mypermissions?issueKey=SIMPL-22027",
+      "observedAt": "2026-10-02T11:10:08.582857+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "SIMPL-22027-permissions.json"
+    },
+    {
+      "name": "attachment-sample",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/api/2/search?jql=project+%3D+SIMPL+AND+attachments+IS+NOT+EMPTY+ORDER+BY+updated+DESC&maxResults=1&fields=attachment",
+      "observedAt": "2026-10-02T11:10:08.833606+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "attachment-sample.json"
+    },
+    {
+      "name": "board-172",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/agile/1.0/board/172/configuration",
+      "observedAt": "2026-10-02T11:10:09.187329+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "board-172.json"
+    },
+    {
+      "name": "board-172-issues",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/agile/1.0/board/172/issue?maxResults=1&fields=summary%2Cstatus",
+      "observedAt": "2026-10-02T11:10:09.462949+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "board-172-issues.json"
+    },
+    {
+      "name": "board-183",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/agile/1.0/board/183/configuration",
+      "observedAt": "2026-10-02T11:10:09.712330+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "board-183.json"
+    },
+    {
+      "name": "board-183-issues",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/agile/1.0/board/183/issue?maxResults=1&fields=summary%2Cstatus",
+      "observedAt": "2026-10-02T11:10:09.939019+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "board-183-issues.json"
+    },
+    {
+      "name": "board-183-sprints",
+      "method": "GET",
+      "url": "https://jira.simplprogramme.eu/rest/agile/1.0/board/183/sprint?maxResults=5&state=active%2Cfuture",
+      "observedAt": "2026-10-02T11:10:10.218789+00:00",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "responseFile": "board-183-sprints.json"
+    }
+  ],
+  "counts": {
+    "projects": 6,
+    "visibleIssues": 36726,
+    "simplIssues": 32498,
+    "boards": 72,
+    "dashboards": 191,
+    "fields": 249,
+    "customFields": 207,
+    "issueTypes": 29,
+    "simplCreateIssueTypes": 18,
+    "simplComponents": 35,
+    "simplVersions": 10
+  },
+  "attachmentSettings": {
+    "enabled": true,
+    "uploadLimit": 10485760
+  },
+  "projectPermissions": {
+    "PSOT": {
+      "BROWSE_PROJECTS": true,
+      "CREATE_ISSUES": true,
+      "EDIT_ISSUES": true,
+      "ASSIGN_ISSUES": false,
+      "TRANSITION_ISSUES": true,
+      "ADD_COMMENTS": true,
+      "CREATE_ATTACHMENTS": true,
+      "LINK_ISSUES": false,
+      "WORK_ON_ISSUES": false,
+      "DELETE_ISSUES": false,
+      "ADMINISTER_PROJECTS": false,
+      "MANAGE_SPRINTS_PERMISSION": false
+    },
+    "SC1PLAN": {
+      "BROWSE_PROJECTS": true,
+      "CREATE_ISSUES": false,
+      "EDIT_ISSUES": false,
+      "ASSIGN_ISSUES": false,
+      "TRANSITION_ISSUES": false,
+      "ADD_COMMENTS": true,
+      "CREATE_ATTACHMENTS": true,
+      "LINK_ISSUES": false,
+      "WORK_ON_ISSUES": true,
+      "DELETE_ISSUES": false,
+      "ADMINISTER_PROJECTS": false,
+      "MANAGE_SPRINTS_PERMISSION": false
+    },
+    "SIMPL": {
+      "BROWSE_PROJECTS": true,
+      "CREATE_ISSUES": true,
+      "EDIT_ISSUES": true,
+      "ASSIGN_ISSUES": true,
+      "TRANSITION_ISSUES": true,
+      "ADD_COMMENTS": true,
+      "CREATE_ATTACHMENTS": true,
+      "LINK_ISSUES": true,
+      "WORK_ON_ISSUES": true,
+      "DELETE_ISSUES": false,
+      "ADMINISTER_PROJECTS": false,
+      "MANAGE_SPRINTS_PERMISSION": false
+    },
+    "SCE": {
+      "BROWSE_PROJECTS": true,
+      "CREATE_ISSUES": true,
+      "EDIT_ISSUES": true,
+      "ASSIGN_ISSUES": true,
+      "TRANSITION_ISSUES": true,
+      "ADD_COMMENTS": true,
+      "CREATE_ATTACHMENTS": true,
+      "LINK_ISSUES": true,
+      "WORK_ON_ISSUES": true,
+      "DELETE_ISSUES": true,
+      "ADMINISTER_PROJECTS": false,
+      "MANAGE_SPRINTS_PERMISSION": false
+    },
+    "JCS": {
+      "BROWSE_PROJECTS": true,
+      "CREATE_ISSUES": true,
+      "EDIT_ISSUES": true,
+      "ASSIGN_ISSUES": false,
+      "TRANSITION_ISSUES": true,
+      "ADD_COMMENTS": true,
+      "CREATE_ATTACHMENTS": true,
+      "LINK_ISSUES": false,
+      "WORK_ON_ISSUES": false,
+      "DELETE_ISSUES": false,
+      "ADMINISTER_PROJECTS": false,
+      "MANAGE_SPRINTS_PERMISSION": false
+    },
+    "SPGRLOG": {
+      "BROWSE_PROJECTS": true,
+      "CREATE_ISSUES": true,
+      "EDIT_ISSUES": true,
+      "ASSIGN_ISSUES": true,
+      "TRANSITION_ISSUES": true,
+      "ADD_COMMENTS": true,
+      "CREATE_ATTACHMENTS": true,
+      "LINK_ISSUES": true,
+      "WORK_ON_ISSUES": true,
+      "DELETE_ISSUES": true,
+      "ADMINISTER_PROJECTS": false,
+      "MANAGE_SPRINTS_PERMISSION": false
+    }
+  },
+  "sampleIssues": [
+    {
+      "key": "SIMPL-33846",
+      "type": "Expedite",
+      "status": "In Progress",
+      "comments": 3,
+      "remoteLinks": 0,
+      "transitions": [
+        {
+          "id": "11",
+          "name": "To Do",
+          "fields": []
+        },
+        {
+          "id": "21",
+          "name": "In Progress",
+          "fields": []
+        },
+        {
+          "id": "31",
+          "name": "Done",
+          "fields": []
+        },
+        {
+          "id": "41",
+          "name": "Blocked",
+          "fields": []
+        },
+        {
+          "id": "51",
+          "name": "Cancelled",
+          "fields": [
+            "resolution",
+            "fixVersions",
+            "worklog"
+          ]
+        },
+        {
+          "id": "61",
+          "name": "PBI INTERNAL QA",
+          "fields": []
+        }
+      ],
+      "editableFieldCount": 20
+    },
+    {
+      "key": "SIMPL-22027",
+      "type": "Test Execution",
+      "status": "Closed",
+      "comments": 0,
+      "remoteLinks": 0,
+      "transitions": [
+        {
+          "id": "31",
+          "name": "Renew",
+          "fields": []
+        }
+      ],
+      "editableFieldCount": 19
+    }
+  ],
+  "sampleCreateType": {
+    "id": "10600",
+    "name": "L0 Requirement"
+  },
+  "sampleRequiredCreateFields": [
+    {
+      "id": "summary",
+      "name": "Summary"
+    },
+    {
+      "id": "customfield_11412",
+      "name": "Applicability"
+    },
+    {
+      "id": "customfield_11411",
+      "name": "Requirement Type"
+    },
+    {
+      "id": "customfield_11300",
+      "name": "PUBLISHED"
+    },
+    {
+      "id": "project",
+      "name": "Project"
+    },
+    {
+      "id": "issuetype",
+      "name": "Issue Type"
+    }
+  ],
+  "selectedCustomFields": [
+    {
+      "id": "customfield_10105",
+      "name": "Sprint",
+      "schema": {
+        "type": "array",
+        "items": "string",
+        "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+        "customId": 10105
+      }
+    },
+    {
+      "id": "customfield_10106",
+      "name": "Story Points",
+      "schema": {
+        "type": "number",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+        "customId": 10106
+      }
+    },
+    {
+      "id": "customfield_10101",
+      "name": "Epic Link",
+      "schema": {
+        "type": "any",
+        "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+        "customId": 10101
+      }
+    },
+    {
+      "id": "customfield_10103",
+      "name": "Epic Name",
+      "schema": {
+        "type": "string",
+        "custom": "com.pyxis.greenhopper.jira:gh-epic-label",
+        "customId": 10103
+      }
+    }
+  ],
+  "limitations": [
+    "GET only; no mutations attempted.",
+    "Counts and permissions reflect this principal at the observation time.",
+    "Issue, comment, board, sprint, and metadata reads are bounded samples.",
+    "No attachment binary download or Confluence API request was performed."
+  ]
+}
